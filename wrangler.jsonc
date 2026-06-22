@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "sys",
+  "compatibility_date": "2026-06-22",
+  "observability": {
+    "enabled": true
+  },
+  "assets": {
+    "directory": "functions"
+  },
+  "compatibility_flags": [
+    "nodejs_compat"
+  ]
+}
